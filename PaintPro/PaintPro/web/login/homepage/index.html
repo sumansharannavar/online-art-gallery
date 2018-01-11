@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>Gallery</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<meta charset="iso-8859-1">
+<link rel="stylesheet" href="styles/layout.css" type="text/css">
+<!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
+ 
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100' rel='stylesheet' type='text/css'>
+
+    <!-- styles -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+
+    <!-- theme stylesheet -->
+    <link href="css/style.default.css" rel="stylesheet" id="theme-stylesheet">
+
+    <!-- your stylesheet with modifications -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <script src="js/respond.min.js"></script>
+
+    <link rel="shortcut icon" href="favicon.png">
+
+
+
+</head>
+<body>
+    <div>
+        <div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,hi,kn', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+        </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    </div>
+<!-- *** TOPBAR ***
+ _________________________________________________________ -->
+    
+
+    <!-- *** TOP BAR END *** -->
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+      <h1><a href="index.html">FRAME 'R' WALL</a></h1>
+      <h2>Just Frame it.....!</h2>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="category.html">Category</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        
+         <li class="last"><a href="profile.jsp">Profile</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+<!-- content -->
+<div class="wrapper row2">
+  <div id="container" class="clear">
+    <!-- Slider -->
+<center>
+    <div class="w3-content w3-section">
+  <img class="mySlides" src="images/1.jpg">
+  <img class="mySlides" src="images/2.jpg" >
+  <img class="mySlides" src="images/3.jpg" >
+</div>
+</center>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+    <!-- main content -->
+    <div id="homepage">
+      <!-- Services -->
+      <section id="services" class="clear">
+        <article class="one_third">
+        <a href="land.html">  <figure><img src="images/landscape/land1.jpg" width="290" height="180" alt="">
+            <figcaption>
+              <h2>Landscape Paintings</h2></a>
+              <p>A landscape is an outdoor scene. A landscape artist uses paint to create not only land, water, and clouds but air, wind, and sunlight.</p>
+             <footer class="more"><a href="land.html">Read More &raquo;</a></footer>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="one_third">
+     <a href="port.html">     <figure><img src="images/portrait/port1.jpg" width="290" height="180" alt="">
+            <figcaption>
+              <h2>Portrait Pantings</h2></a>
+           <p>A portrait is an image of a person or animal. Besides showing what someone looks like, a portrait often captures a mood or personality.</p>
+    <a href="port.html">             <footer class="more">Read More &raquo;</footer></a>
+            </figcaption>
+          </figure>
+        </article>
+        <article class="one_third lastbox">
+    <a href="still.html">         <figure><img src="images/still/still1.jpg" width="290" height="180" alt="">
+            <figcaption>
+              <h2>Still Life Paintings</h2></a>
+              <p>A still life shows objects, such as flowers, food, or musical instruments. A still life reveals an artist's skill in painting shapes, light, and shadow.</p>
+    <a href="still.html">             <footer class="more">Read More &raquo;</footer></a>
+            </figcaption>
+          </figure>
+        </article>
+  <article class="one_third lastbox">
+         <a href="real.html">    <figure><img src="images/real/real1.jpg" width="290" height="180" alt="">
+            <figcaption>
+              <h2>Real Life Paintings</h2></a>
+              <p>A real life scene captures life in action. It could show a busy street, a beach party, a dinner gathering, or anyplace where living goes on.</p>
+         <a href="real.html">        <footer class="more">Read More &raquo;</footer></a>
+            </figcaption>
+          </figure>
+        </article>
+  <article class="one_third lastbox">
+        <a href="religious.html">     <figure><img src="images/religious/god1.jpg" width="290" height="180" alt="">
+            <figcaption>
+              <h2>Religious Paintings</h2></a>
+              <p>A religious work of art shares a religious message. It might portray a sacred story or express an artist's faith.</p>
+          <a href="religious.html">       <footer class="more">Read More &raquo;</footer></a>
+            </figcaption>
+          </figure>
+        </article>
+  
+  
+  
+  
+  
+  
+     
+      <!-- Introduction -->
+      <section id="intro" class="last clear">
+        <article>
+          <figure><img src="images/2.jpg" width="450" height="250" alt="">
+            <figcaption>
+              <h2>New Arrivals</h2>
+              <p> "Oh, Spring is surely coming, Her couriers fill the air; Each morn are new arrivals, Each night her ways prepare; I scent her fragrant garments, Her foot is on the stair."
+<u>The latest Paintings of new styles </u></p>
+              <footer class="more"><a href="#">Read More &raquo;</a></footer>
+            </figcaption>
+          </figure>
+        </article>
+      </section>
+      <!-- / Introduction -->
+    </div>
+    <!-- / content body -->
+  </div>
+</div>
+<!-- Footer -->
+<div class="wrapper row3">
+  <div id="footer" class="clear">
+    <!-- Section One -->
+    <section class="one_quarter">
+      <h2 class="title">Pages</h2>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="category.html">Category</a></li>
+          <li><a href="sell.html">Sell Painting</a></li>
+          <li><a href="about.html">About Us</a></li>
+          
+          <li class="last"><a href="Contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </section>
+    <!-- Section Two -->
+    <section class="one_quarter">
+      <h2 class="title">User Section</h2>
+      <nav>
+        <ul>
+         
+          <li><a href="I:\PaintPro\web\login\index.html">Login</a></li>
+          <li class="last"><a href="I:\PaintPro\web\login\registration.html">Register</a></li>
+        </ul>
+      </nav>
+    </section>
+    <!-- Section Three -->
+    <section class="one_quarter">
+      <h2 class="title">Category</h2>
+      <nav>
+        <ul>
+          <li><a href="land.html">LandScape</a></li>
+          <li><a href="port.html">Portrait</a></li>
+          <li><a href="real.html">Real Life</a></li>
+          <li><a href="still.html">Still Life</a></li>
+           <li><a href="religious">Religious</a></li>
+          <li class="last"><a href="diff.html">Different Types</a></li>
+        </ul>
+      </nav>
+    </section>
+   
+  </div>
+</div>
+<!-- Copyright -->
+<div class="wrapper row4">
+  <footer id="copyright" class="clear">
+    <p class="fl_left">Copyright &copy; 2012 - All Rights Reserved - <a href="contact.html">Gallery@group</a></p>
+      </footer>
+</div>
+</body>
+</html>
